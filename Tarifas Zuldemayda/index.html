@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tarifas Dinamica AXM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="layout">
+        <header class="brand-header">
+            <div class="brand-mark">
+                <img src="Img/Solo de dinamica.png" alt="Logo Dinámica AXM" class="brand-logo">
+                <div class="brand-text">
+                    <h1>Dinamica AXM</h1>
+                    <p>Tarifas de entrega por barrios, conjuntos de Armenia y sus alrededores</p>
+                </div>
+            </div>
+        </header>
+
+        <section class="card">
+            <h2>Consulta rápida de tarifas</h2>
+
+            <!-- TIENDA -->
+            <div id="selectorTiendaContainer">
+                <label for="tiendaInput">Tienda aliada</label>
+                <input type="text" id="tiendaInput" placeholder="Escribe o selecciona la tienda aliada">
+                <div id="tiendaSuggestions" class="suggestions"></div>
+            </div>
+
+            <!-- TIENDA ACTIVA (Oculto por defecto) -->
+            <div id="tiendaActivaContainer" style="display: none; text-align: center; margin-bottom: 20px;">
+                <h3 style="color: var(--primary); margin: 0;">Tienda Seleccionada:</h3>
+                <h2 id="nombreTiendaActiva" style="margin: 5px 0 0 0; color: #333;"></h2>
+            </div>
+
+            <!-- BARRIO -->
+            <label for="barrioInput">Barrio / conjunto destino</label>
+            <input type="text" id="barrioInput" placeholder="Escribe el barrio o conjunto">
+            <div id="barrioSuggestions" class="suggestions"></div>
+
+            <!-- DATOS CLIENTE -->
+            <label for="direccionInput">Dirección exacta</label>
+            <input type="text" id="direccionInput" placeholder="Ej: Calle 12 # 10-25">
+
+            <label for="nombreInput">Nombre de quien recibe</label>
+            <input type="text" id="nombreInput" placeholder="Ej: Juan Pérez">
+
+            <label for="telefonoInput">Número de contacto</label>
+            <input type="tel" id="telefonoInput" placeholder="Ej: 3001234567">
+
+            <!-- BOTÓN CONSULTAR -->
+            <button type="button" id="consultarBtn">
+                Consultar tarifa de domicilio
+            </button>
+
+            <!-- RESULTADO -->
+            <div id="resultado" class="result"></div>
+
+            <!-- REDES -->
+            <div class="social">
+                <span class="social-label">Agenda tu pedido:</span>
+
+                <a href="https://www.instagram.com/dinamicaaxmdomicilios/" target="_blank" class="social-link">
+                    <img src="https://img.freepik.com/vector-gratis/icono-instagram_1057-2227.jpg" alt="Instagram">
+                </a>
+
+                <a id="whatsappBtn" target="_blank" class="social-link">
+                    <img src="https://img.freepik.com/fotos-premium/logotipo-whatsapp-redondo-aislado-sobre-fondo-blanco_469489-1039.jpg"
+                        alt="WhatsApp">
+                </a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN MEDIA -->
+        <section class="media-section">
+            <h2>Conócenos Dinamica AXM</h2>
+
+            <div class="media-layout">
+
+                <div class="media-column media-column-video">
+                    <video autoplay muted loop playsinline preload="auto">
+                        <source src="Img/Video promocional.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <figure class="media-column">
+                    <img src="Img/Quienes somos.jpeg" alt="Quiénes somos">
+                </figure>
+
+                <figure class="media-column">
+                    <img src="Img/Confianza que sonrie.jpeg" alt="Confianza">
+                </figure>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- SCRIPT AL FINAL -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
