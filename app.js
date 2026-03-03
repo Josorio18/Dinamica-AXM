@@ -11,58 +11,60 @@
 
 // 📱 NÚMEROS DE WHATSAPP POR TIENDA
 // Aquí configuras el número de teléfono al que le llegarán los pedidos de cada tienda.
-// Si una tienda no está aquí, usará el número por defecto.
-// Formato: indicativo + número (ej: 573001234567)
+// Si una tienda DEBE IR A WHATSAPP, pon su número (ej: "573001234567").
+// Si una tienda SOLO DEBE MOSTRAR EL PRECIO (sin ir a WhatsApp), déjala vacía ("").
 const numerosWhatsApp = {
-    "Arroz Paisa": "573028031697",
+    "Arroz Paisa": "",
     "Bali": "573028031697",
-    "Belleza Andrea": "573028031697",
+    "Belleza Andrea": "573028031697", 
     "Belleza y algo mas": "573028031697",
-    "Bogotana de Pizza": "573028031697",
+    "Bogotana de Pizza": "",
     "Con amor": "573028031697",
-    "Cosechas": "573028031697",
-    "Crispeland": "573028031697",
+    "Cosechas": "",
+    "Crispeland": "",
     "Detalles Magicos": "573028031697",
-    "Dprisa Granada": "573028031697",
-    "Dprisa Clarita": "573028031697",
+    "Dprisa Granada": "",
+    "Dprisa Clarita": "",
     "Elizs Burger": "573028031697",
-    "Epa Q Arepa": "573028031697",
-    "Floristeria la Sabana": "573028031697",
-    "Floristeria Yeral Raigoza": "573028031697",
-    "Full Carbon": "573028031697",
-    "Koryo Streed Food": "573028031697",
+    "Epa Q Arepa": "",
+    "Floristeria la Sabana": "",
+    "Floristeria Yeral Raigoza": "",
+    "Full Carbon": "",
+    "Koryo Streed Food": "",
     "La Donita": "573028031697",
     "La mejor Fast Food": "573028031697",
     "La Perfumeria": "573028031697",
-    "La Vaca Peca": "573028031697",
+    "La Vaca Peca": "",
     "Le Dulche": "573028031697",
-    "Luxury Store": "573028031697",
+    "Luxury Store": "",
     "Magic Hair": "573028031697",
-    "Magangue": "573028031697",
-    "Master Wok": "573028031697",
-    "Mary Sex": "573028031697",
-    "Megadulzon": "573028031697",
-    "Meraki": "573028031697",
-    "Molino Rojo": "573028031697",
-    "Mr ramen": "573028031697",
-    "Nerihe": "573028031697",
-    "Nifu Nifa": "573028031697",
-    "Parrilla del Llano": "573028031697",
-    "Pizzas del Granada": "573028031697",
+    "Magangue": "",
+    "Master Wok": "",
+    "Mary Sex": "",
+    "Megadulzon": "",
+    "Meraki": "",
+    "Molino Rojo": "",
+    "Mr ramen": "",
+    "Nerihe": "",
+    "Nifu Nifa": "",
+    "Parrilla del Llano": "",
+    "Pizzas del Granada": "",
     "Primitivo": "573028031697",
-    "Que Kuka": "573028031697",
-    "Sabor de Casa": "573028031697",
-    "Skyled": "573028031697",
-    "Smasher": "573028031697",
-    "Super Perros": "573028031697",
-    "Ta cabron - Av Centenario": "573028031697",
-    "Ta cabron - Nueva Cecilia": "573028031697",
-    "Tati Samudio": "573028031697",
-    "Yeye Gran Colombia": "573028031697",
-    "Cocheros": "573028031697"
+    "Que Kuka": "",
+    "Sabor de Casa": "",
+    "Skyled": "",
+    "Smasher": "",
+    "Super Perros": "",
+    "Ta cabron - Av Centenario": "",
+    "Ta cabron - Nueva Cecilia": "",
+    "Tati Samudio": "",
+    "Yeye Gran Colombia": "",
+    "Cocheros": ""
 };
 
-const numeroPorDefecto = "573028031697"; // Número a usar si la tienda no tiene uno configurado
+const numeroPorDefecto = ""; // Si una nueva tienda no se encuentra arriba, no irá a WhatsApp por defecto
+
+
 
 const tarifas = {
 
@@ -684,19 +686,44 @@ consultarBtn.addEventListener("click", function (e) {
     }
 
     // 🔥 BUSCAR EL NÚMERO DE WHATSAPP DE LA TIENDA ELEGIDA 🔥
-    const numero = numerosWhatsApp[tienda] || numeroPorDefecto;
+    // Si la tienda está en el objeto, tomamos su valor. Si no, usamos el defecto.
+    // Usar hasOwnProperty nos permite saber si la clave existe, incluso si está vacía "".
+    let numero = numeroPorDefecto;
+    if (numerosWhatsApp.hasOwnProperty(tienda)) {
+        numero = numerosWhatsApp[tienda];
+    }
 
-    const mensaje = `Hola quiero realizar un pedido 
-
+    // 🔥 LÓGICA CONDICIONAL: ¿TIENE NÚMERO O ESTÁ VACÍO? 🔥
+    if (numero && numero.trim() !== "") {
+        // Opción A: Tiene número configurado. Lo enviamos a WhatsApp igual que antes.
+        const mensaje = `Hola quiero realizar un pedido 
+    
 Tienda: ${tienda}
 Barrio: ${barrio.toUpperCase()}
 Domicilio: $${precio.toLocaleString()}
-
+    
 Nombre: ${nombre}
 Dirección: ${direccion}
 Teléfono: ${telefono}`;
 
-    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+        const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+        window.open(url, "_blank");
 
-    window.open(url, "_blank");
+        // Opcional: mostrar también un mensaje visual en la página
+        resultado.innerHTML = `<strong>Enviando pedido a WhatsApp...</strong><br>El valor del domicilio es: $${precio.toLocaleString()}`;
+        resultado.style.display = "block";
+    } else {
+        // Opción B: No tiene número (está vacío ""). Solo mostramos la información en pantalla.
+        resultado.innerHTML = `
+            <div style="text-align: left;">
+                <h3 style="margin-top:0; color:var(--primary);">Detalles de la consulta</h3>
+                <strong>Tienda:</strong> ${tienda}<br>
+                <strong>Destino:</strong> ${barrio.toUpperCase()}<br>
+                <div style="font-size: 1.2rem; margin-top: 10px; padding: 10px; background: #e0f7fa; border-radius: 8px; color: #006064; text-align: center;">
+                    <strong>Tarifa de Domicilio:</strong> $${precio.toLocaleString()}
+                </div>
+            </div>
+        `;
+        resultado.style.display = "block";
+    }
 });
