@@ -355,14 +355,14 @@ const tarifas = {
         "villa hermosa": 8000,
         "arcades": 8000,
         "grecia": 8000,
-        "cecilia": "Cualquiera de las 3 etapas" / 9000,
+        "cecilia": 9000,
         "mercar": 9000,
         "villa italiana": 9000,
         "ciudadela del sol": 8000,
         "cooperativo": 8000,
         "villa angela": 8000,
         "el dorado": 8000,
-        "nuevo armenia": "Cualquier etapa" / 8000,
+        "nuevo armenia": 8000,
         "montecarlo": 8000,
         "reserva de san diego": 8000,
         "sinai": 8000,
@@ -415,7 +415,7 @@ const tarifas = {
         "las brisas": 8000,
         "bello horizonte": 9000,
         "14 de octubre": 9000,
-        "villa alejandra": "Cualquiera de las etapas" / 9000,
+        "villa alejandra / Cualquiera de las etapas":  9000,
         "villa del carmen": 9000,
         "carmelo": 9000,
         "cavanná": 9000,
@@ -431,7 +431,7 @@ const tarifas = {
         "ribadeo": 9000,
         "inter sur": 9000,
         "caminos del puerto": 9000,
-        "lindaraja": "Cualquier etapa" / 9000,
+        "lindaraja / Cualquiera de las etapas": 9000,
         "fachada": 9000,
         "manantiales": 9000,
         "caminos del bosque": 9000,
@@ -444,7 +444,7 @@ const tarifas = {
         "poblado": 9000,
         "caminos de cocora": 9000,
         "zazacuari": 9000,
-        "verdu": "Cualquiera" / 8000,
+        "verdu": 8000,
         "verde encanto": 8000,
         "oviedo": 8000,
         "torres san luis rey": 8000,
@@ -782,14 +782,14 @@ const tarifas = {
         "villa hermosa": 8000,
         "arcades": 8000,
         "grecia": 8000,
-        "cecilia": "Cualquiera de las 3 etapas" / 8000,
+        "cecilia": 8000,
         "mercar": 8000,
         "villa italiana": 8000,
         "ciudadela del sol": 8000,
         "cooperativo": 8000,
         "villa angela": 7000,
         "el dorado": 8000,
-        "nuevo armenia": "Cualquier etapa" / 7000,
+        "nuevo armenia": 7000,
         "montecarlo": 7000,
         "reserva de san diego": 7000,
         "sinai": 7000,
@@ -842,7 +842,7 @@ const tarifas = {
         "las brisas": 8000,
         "bello horizonte": 8000,
         "14 de octubre": 8000,
-        "villa alejandra": "Cualquiera de las etapas" / 8000,
+        "villa alejandra": 8000,
         "villa del carmen": 8000,
         "carmelo": 8000,
         "cavanná": 8000,
@@ -858,7 +858,7 @@ const tarifas = {
         "ribadeo": 8000,
         "inter sur": 8000,
         "caminos del puerto": 8000,
-        "lindaraja": "Cualquier etapa" / 8000,
+         "lindaraja / Cualquiera de las etapas": 8000,
         "fachada": 8000,
         "manantiales": 8000,
         "caminos del bosque": 8000,
@@ -871,7 +871,7 @@ const tarifas = {
         "poblado": 8000,
         "caminos de cocora": 8000,
         "zazacuari": 8000,
-        "verdu": "Cualquiera" / 8000,
+        "verdu": 8000,
         "verde encanto": 8000,
         "oviedo": 8000,
         "torres san luis rey": 8000,
@@ -1207,14 +1207,14 @@ const tarifas = {
         "villa hermosa": 8000,
         "arcades": 8000,
         "grecia": 8000,
-        "cecilia": "Cualquiera de las 3 etapas" / 8000,
+        "cecilia": 8000,
         "mercar": 8000,
         "villa italiana": 8000,
         "ciudadela del sol": 8000,
         "cooperativo": 8000,
         "villa angela": 7000,
         "el dorado": 8000,
-        "nuevo armenia": "Cualquier etapa" / 7000,
+        "nuevo armenia": 7000,
         "montecarlo": 7000,
         "reserva de san diego": 7000,
         "sinai": 7000,
@@ -1267,7 +1267,7 @@ const tarifas = {
         "las brisas": 8000,
         "bello horizonte": 8000,
         "14 de octubre": 8000,
-        "villa alejandra": "Cualquiera de las etapas" / 8000,
+        "villa alejandra": 8000,
         "villa del carmen": 8000,
         "carmelo": 8000,
         "cavanná": 8000,
@@ -1283,7 +1283,7 @@ const tarifas = {
         "ribadeo": 8000,
         "inter sur": 8000,
         "caminos del puerto": 8000,
-        "lindaraja": "Cualquier etapa" / 8000,
+         "lindaraja / Cualquiera de las etapas": 8000,
         "fachada": 8000,
         "manantiales": 8000,
         "caminos del bosque": 8000,
@@ -1296,7 +1296,7 @@ const tarifas = {
         "poblado": 8000,
         "caminos de cocora": 8000,
         "zazacuari": 8000,
-        "verdu": "Cualquiera" / 8000,
+        "verdu": 8000,
         "verde encanto": 8000,
         "oviedo": 8000,
         "torres san luis rey": 8000,
@@ -1647,14 +1647,14 @@ const tarifas = {
         "villa hermosa": 7000,
         "arcades": 7000,
         "grecia": 8000,
-        "cecilia": "Cualquiera de las 3 etapas" / 8000,
+        "cecilia": 8000,
         "mercar": 8000,
         "villa italiana": 8000,
         "ciudadela del sol": 7000,
         "cooperativo": 7000,
         "villa angela": 7000,
         "el dorado": 7000,
-        "nuevo armenia": "Cualquier etapa" / 7000,
+        "nuevo armenia": 7000,
         "montecarlo": 7000,
         "reserva de san diego": 7000,
         "sinai": 7000,
@@ -1707,7 +1707,7 @@ const tarifas = {
         "las brisas": 8000,
         "bello horizonte": 8000,
         "14 de octubre": 8000,
-        "villa alejandra": "Cualquiera de las etapas" / 8000,
+        "villa alejandra": 8000,
         "villa del carmen": 8000,
         "carmelo": 8000,
         "cavanná": 8000,
@@ -1723,7 +1723,7 @@ const tarifas = {
         "ribadeo": 8000,
         "inter sur": 8000,
         "caminos del puerto": 8000,
-        "lindaraja": "Cualquier etapa" / 8000,
+         "lindaraja / Cualquiera de las etapas": 8000,
         "fachada": 8000,
         "manantiales": 8000,
         "caminos del bosque": 8000,
@@ -1736,7 +1736,7 @@ const tarifas = {
         "poblado": 8000,
         "caminos de cocora": 8000,
         "zazacuari": 8000,
-        "verdu": "Cualquiera" / 8000,
+        "verdu": 8000,
         "verde encanto": 8000,
         "oviedo": 8000,
         "torres san luis rey": 8000,
@@ -2079,14 +2079,14 @@ const tarifas = {
         "villa hermosa": 7000,
         "arcades": 7000,
         "grecia": 7000,
-        "cecilia": "Cualquiera de las 3 etapas" / 7000,
+        "cecilia": 7000,
         "mercar": 7000,
         "villa italiana": 7000,
         "ciudadela del sol": 7000,
         "cooperativo": 7000,
         "villa angela": 7000,
         "el dorado": 7000,
-        "nuevo armenia": "Cualquier etapa" / 7000,
+        "nuevo armenia": 7000,
         "montecarlo": 7000,
         "reserva de san diego": 7000,
         "sinai": 7000,
@@ -2139,7 +2139,7 @@ const tarifas = {
         "las brisas": 7000,
         "bello horizonte": 7000,
         "14 de octubre": 7000,
-        "villa alejandra": "Cualquiera de las etapas" / 7000,
+        "villa alejandra / Cualquiera de las etapas" : 7000,
         "villa del carmen": 7000,
         "carmelo": 7000,
         "cavanná": 7000,
@@ -2155,7 +2155,7 @@ const tarifas = {
         "ribadeo": 7000,
         "inter sur": 7000,
         "caminos del puerto": 7000,
-        "lindaraja": "Cualquier etapa" / 7000,
+        "lindaraja / Cualquiera de las etapas": 7000,
         "fachada": 7000,
         "manantiales": 7000,
         "caminos del bosque": 7000,
@@ -2168,7 +2168,7 @@ const tarifas = {
         "poblado": 7000,
         "caminos de cocora": 7000,
         "zazacuari": 7000,
-        "verdu": "Cualquiera" / 7000,
+        "verdu": 7000,
         "verde encanto": 7000,
         "oviedo": 7000,
         "torres san luis rey": 7000,
@@ -2504,14 +2504,14 @@ const tarifas = {
         "villa hermosa": 8000,
         "arcades": 8000,
         "grecia": 8000,
-        "cecilia": "Cualquiera de las 3 etapas" / 8000,
+        "cecilia": 8000,
         "mercar": 8000,
         "villa italiana": 8000,
         "ciudadela del sol": 8000,
         "cooperativo": 8000,
         "villa angela": 7000,
         "el dorado": 8000,
-        "nuevo armenia": "Cualquier etapa" / 7000,
+        "nuevo armenia": 7000,
         "montecarlo": 7000,
         "reserva de san diego": 7000,
         "sinai": 7000,
@@ -2564,7 +2564,7 @@ const tarifas = {
         "las brisas": 8000,
         "bello horizonte": 8000,
         "14 de octubre": 8000,
-        "villa alejandra": "Cualquiera de las etapas" / 8000,
+        "villa alejandra": 8000,
         "villa del carmen": 8000,
         "carmelo": 8000,
         "cavanná": 8000,
@@ -2580,7 +2580,7 @@ const tarifas = {
         "ribadeo": 8000,
         "inter sur": 8000,
         "caminos del puerto": 8000,
-        "lindaraja": "Cualquier etapa" / 8000,
+        "lindaraja / Cualquiera de las etapas": 8000,
         "fachada": 8000,
         "manantiales": 8000,
         "caminos del bosque": 8000,
@@ -2593,7 +2593,7 @@ const tarifas = {
         "poblado": 8000,
         "caminos de cocora": 8000,
         "zazacuari": 8000,
-        "verdu": "Cualquiera" / 8000,
+        "verdu": 8000,
         "verde encanto": 8000,
         "oviedo": 8000,
         "torres san luis rey": 8000,
@@ -2930,14 +2930,14 @@ const tarifas = {
         "villa hermosa": 8000,
         "arcades": 8000,
         "grecia": 8000,
-        "cecilia": "Cualquiera de las 3 etapas" / 8000,
+        "cecilia": 8000,
         "mercar": 8000,
         "villa italiana": 8000,
         "ciudadela del sol": 8000,
         "cooperativo": 8000,
         "villa angela": 7000,
         "el dorado": 8000,
-        "nuevo armenia": "Cualquier etapa" / 7000,
+        "nuevo armenia": 7000,
         "montecarlo": 7000,
         "reserva de san diego": 7000,
         "sinai": 7000,
@@ -2990,7 +2990,7 @@ const tarifas = {
         "las brisas": 8000,
         "bello horizonte": 8000,
         "14 de octubre": 8000,
-        "villa alejandra": "Cualquiera de las etapas" / 8000,
+        "villa alejandra / Cualquiera de las etapas": 8000,
         "villa del carmen": 8000,
         "carmelo": 8000,
         "cavanná": 8000,
@@ -3006,7 +3006,7 @@ const tarifas = {
         "ribadeo": 8000,
         "inter sur": 8000,
         "caminos del puerto": 8000,
-        "lindaraja": "Cualquier etapa" / 8000,
+        "lindaraja / Cualquiera de las etapas": 8000,
         "fachada": 8000,
         "manantiales": 8000,
         "caminos del bosque": 8000,
@@ -3019,7 +3019,7 @@ const tarifas = {
         "poblado": 8000,
         "caminos de cocora": 8000,
         "zazacuari": 8000,
-        "verdu": "Cualquiera" / 8000,
+        "verdu": 8000,
         "verde encanto": 8000,
         "oviedo": 8000,
         "torres san luis rey": 8000,
@@ -3355,14 +3355,14 @@ const tarifas = {
         "villa hermosa": 7000,
         "arcades": 7000,
         "grecia": 8000,
-        "cecilia": "Cualquiera de las 3 etapas" / 8000,
+        "cecilia": 8000,
         "mercar": 8000,
         "villa italiana": 8000,
         "ciudadela del sol": 7000,
         "cooperativo": 7000,
         "villa angela": 7000,
         "el dorado": 7000,
-        "nuevo armenia": "Cualquier etapa" / 7000,
+        "nuevo armenia": 7000,
         "montecarlo": 7000,
         "reserva de san diego": 7000,
         "sinai": 7000,
@@ -3415,7 +3415,7 @@ const tarifas = {
         "las brisas": 8000,
         "bello horizonte": 8000,
         "14 de octubre": 8000,
-        "villa alejandra": "Cualquiera de las etapas" / 8000,
+        "villa alejandra": 8000,
         "villa del carmen": 8000,
         "carmelo": 8000,
         "cavanná": 8000,
@@ -3431,7 +3431,7 @@ const tarifas = {
         "ribadeo": 8000,
         "inter sur": 8000,
         "caminos del puerto": 8000,
-        "lindaraja": "Cualquier etapa" / 8000,
+        "lindaraja": 8000,
         "fachada": 8000,
         "manantiales": 8000,
         "caminos del bosque": 8000,
@@ -3444,7 +3444,7 @@ const tarifas = {
         "poblado": 8000,
         "caminos de cocora": 8000,
         "zazacuari": 8000,
-        "verdu": "Cualquiera" / 8000,
+        "verdu": 8000,
         "verde encanto": 8000,
         "oviedo": 8000,
         "torres san luis rey": 8000,
@@ -3780,14 +3780,14 @@ const tarifas = {
         "villa hermosa": 8000,
         "arcades": 8000,
         "grecia": 8000,
-        "cecilia": "Cualquiera de las 3 etapas" / 8000,
+        "cecilia": 8000,
         "mercar": 8000,
         "villa italiana": 8000,
         "ciudadela del sol": 8000,
         "cooperativo": 8000,
         "villa angela": 7000,
         "el dorado": 8000,
-        "nuevo armenia": "Cualquier etapa" / 7000,
+        "nuevo armenia": 7000,
         "montecarlo": 7000,
         "reserva de san diego": 7000,
         "sinai": 7000,
@@ -3840,7 +3840,7 @@ const tarifas = {
         "las brisas": 8000,
         "bello horizonte": 8000,
         "14 de octubre": 8000,
-        "villa alejandra": "Cualquiera de las etapas" / 8000,
+        "villa alejandra": 8000,
         "villa del carmen": 8000,
         "carmelo": 8000,
         "cavanná": 8000,
@@ -3856,7 +3856,7 @@ const tarifas = {
         "ribadeo": 8000,
         "inter sur": 8000,
         "caminos del puerto": 8000,
-        "lindaraja": "Cualquier etapa" / 8000,
+        "lindaraja / Cualquiera de las etapas": 8000,
         "fachada": 8000,
         "manantiales": 8000,
         "caminos del bosque": 8000,
@@ -3869,7 +3869,7 @@ const tarifas = {
         "poblado": 8000,
         "caminos de cocora": 8000,
         "zazacuari": 8000,
-        "verdu": "Cualquiera" / 8000,
+        "verdu": 8000,
         "verde encanto": 8000,
         "oviedo": 8000,
         "torres san luis rey": 8000,
@@ -4205,14 +4205,14 @@ const tarifas = {
         "villa hermosa": 8000,
         "arcades": 8000,
         "grecia": 8000,
-        "cecilia": "Cualquiera de las 3 etapas" / 8000,
+        "cecilia": 8000,
         "mercar": 8000,
         "villa italiana": 8000,
         "ciudadela del sol": 8000,
         "cooperativo": 8000,
         "villa angela": 7000,
         "el dorado": 8000,
-        "nuevo armenia": "Cualquier etapa" / 7000,
+        "nuevo armenia": 7000,
         "montecarlo": 7000,
         "reserva de san diego": 7000,
         "sinai": 7000,
@@ -4265,7 +4265,7 @@ const tarifas = {
         "las brisas": 8000,
         "bello horizonte": 8000,
         "14 de octubre": 8000,
-        "villa alejandra": "Cualquiera de las etapas" / 8000,
+        "villa alejandra": 8000,
         "villa del carmen": 8000,
         "carmelo": 8000,
         "cavanná": 8000,
@@ -4281,7 +4281,7 @@ const tarifas = {
         "ribadeo": 8000,
         "inter sur": 8000,
         "caminos del puerto": 8000,
-        "lindaraja": "Cualquier etapa" / 8000,
+        "lindaraja": 8000,
         "fachada": 8000,
         "manantiales": 8000,
         "caminos del bosque": 8000,
@@ -4294,7 +4294,7 @@ const tarifas = {
         "poblado": 8000,
         "caminos de cocora": 8000,
         "zazacuari": 8000,
-        "verdu": "Cualquiera" / 8000,
+        "verdu": 8000,
         "verde encanto": 8000,
         "oviedo": 8000,
         "torres san luis rey": 8000,
@@ -4662,14 +4662,14 @@ const tarifas = {
         "villa hermosa": 8000,
         "arcades": 8000,
         "grecia": 8000,
-        "cecilia": "Cualquiera de las 3 etapas" / 8000,
+        "cecilia": 8000,
         "mercar": 8000,
         "villa italiana": 8000,
         "ciudadela del sol": 8000,
         "cooperativo": 8000,
         "villa angela": 7000,
         "el dorado": 8000,
-        "nuevo armenia": "Cualquier etapa" / 7000,
+        "nuevo armenia": 7000,
         "montecarlo": 7000,
         "reserva de san diego": 7000,
         "sinai": 7000,
@@ -4722,7 +4722,7 @@ const tarifas = {
         "las brisas": 8000,
         "bello horizonte": 8000,
         "14 de octubre": 8000,
-        "villa alejandra": "Cualquiera de las etapas" / 8000,
+        "villa alejandra": 8000,
         "villa del carmen": 8000,
         "carmelo": 8000,
         "cavanná": 8000,
@@ -4738,7 +4738,7 @@ const tarifas = {
         "ribadeo": 8000,
         "inter sur": 8000,
         "caminos del puerto": 8000,
-        "lindaraja": "Cualquier etapa" / 8000,
+        "lindaraja": 8000,
         "fachada": 8000,
         "manantiales": 8000,
         "caminos del bosque": 8000,
@@ -4751,7 +4751,7 @@ const tarifas = {
         "poblado": 8000,
         "caminos de cocora": 8000,
         "zazacuari": 8000,
-        "verdu": "Cualquiera" / 8000,
+        "verdu": 8000,
         "verde encanto": 8000,
         "oviedo": 8000,
         "torres san luis rey": 8000,
@@ -5106,14 +5106,14 @@ const tarifas = {
         "villa hermosa": 8000,
         "arcades": 8000,
         "grecia": 8000,
-        "cecilia": "Cualquiera de las 3 etapas" / 8000,
+        "cecilia": 8000,
         "mercar": 8000,
         "villa italiana": 8000,
         "ciudadela del sol": 8000,
         "cooperativo": 8000,
         "villa angela": 7000,
         "el dorado": 8000,
-        "nuevo armenia": "Cualquier etapa" / 7000,
+        "nuevo armenia": 7000,
         "montecarlo": 7000,
         "reserva de san diego": 7000,
         "sinai": 7000,
@@ -5166,7 +5166,7 @@ const tarifas = {
         "las brisas": 8000,
         "bello horizonte": 8000,
         "14 de octubre": 8000,
-        "villa alejandra": "Cualquiera de las etapas" / 8000,
+        "villa alejandra": 8000,
         "villa del carmen": 8000,
         "carmelo": 8000,
         "cavanná": 8000,
@@ -5182,7 +5182,7 @@ const tarifas = {
         "ribadeo": 8000,
         "inter sur": 8000,
         "caminos del puerto": 8000,
-        "lindaraja": "Cualquier etapa" / 8000,
+        "lindaraja": 8000,
         "fachada": 8000,
         "manantiales": 8000,
         "caminos del bosque": 8000,
@@ -5195,7 +5195,7 @@ const tarifas = {
         "poblado": 8000,
         "caminos de cocora": 8000,
         "zazacuari": 8000,
-        "verdu": "Cualquiera" / 8000,
+        "verdu": 8000,
         "verde encanto": 8000,
         "oviedo": 8000,
         "torres san luis rey": 8000,
@@ -5534,14 +5534,14 @@ const tarifas = {
         "villa hermosa": 8000,
         "arcades": 8000,
         "grecia": 8000,
-        "cecilia": "Cualquiera de las 3 etapas" / 8000,
+        "cecilia": 8000,
         "mercar": 8000,
         "villa italiana": 8000,
         "ciudadela del sol": 8000,
         "cooperativo": 8000,
         "villa angela": 7000,
         "el dorado": 8000,
-        "nuevo armenia": "Cualquier etapa" / 7000,
+        "nuevo armenia": 7000,
         "montecarlo": 7000,
         "reserva de san diego": 7000,
         "sinai": 7000,
@@ -5594,7 +5594,7 @@ const tarifas = {
         "las brisas": 8000,
         "bello horizonte": 8000,
         "14 de octubre": 8000,
-        "villa alejandra": "Cualquiera de las etapas" / 8000,
+        "villa alejandra": 8000,
         "villa del carmen": 8000,
         "carmelo": 8000,
         "cavanná": 8000,
@@ -5610,7 +5610,7 @@ const tarifas = {
         "ribadeo": 8000,
         "inter sur": 8000,
         "caminos del puerto": 8000,
-        "lindaraja": "Cualquier etapa" / 8000,
+        "lindaraja": 8000,
         "fachada": 8000,
         "manantiales": 8000,
         "caminos del bosque": 8000,
@@ -5623,7 +5623,7 @@ const tarifas = {
         "poblado": 8000,
         "caminos de cocora": 8000,
         "zazacuari": 8000,
-        "verdu": "Cualquiera" / 8000,
+        "verdu": 8000,
         "verde encanto": 8000,
         "oviedo": 8000,
         "torres san luis rey": 8000,
@@ -5969,14 +5969,14 @@ const tarifas = {
         "villa hermosa": 8000,
         "arcades": 8000,
         "grecia": 8000,
-        "cecilia": "Cualquiera de las 3 etapas" / 8000,
+        "cecilia": 8000,
         "mercar": 8000,
         "villa italiana": 8000,
         "ciudadela del sol": 8000,
         "cooperativo": 8000,
         "villa angela": 7000,
         "el dorado": 8000,
-        "nuevo armenia": "Cualquier etapa" / 7000,
+        "nuevo armenia": 7000,
         "montecarlo": 7000,
         "reserva de san diego": 7000,
         "sinai": 7000,
@@ -6029,7 +6029,7 @@ const tarifas = {
         "las brisas": 8000,
         "bello horizonte": 8000,
         "14 de octubre": 8000,
-        "villa alejandra": "Cualquiera de las etapas" / 8000,
+        "villa alejandra": 8000,
         "villa del carmen": 8000,
         "carmelo": 8000,
         "cavanná": 8000,
@@ -6045,7 +6045,7 @@ const tarifas = {
         "ribadeo": 8000,
         "inter sur": 8000,
         "caminos del puerto": 8000,
-        "lindaraja": "Cualquier etapa" / 8000,
+        "lindaraja": 8000,
         "fachada": 8000,
         "manantiales": 8000,
         "caminos del bosque": 8000,
@@ -6058,7 +6058,7 @@ const tarifas = {
         "poblado": 8000,
         "caminos de cocora": 8000,
         "zazacuari": 8000,
-        "verdu": "Cualquiera" / 8000,
+        "verdu": 8000,
         "verde encanto": 8000,
         "oviedo": 8000,
         "torres san luis rey": 8000,
@@ -6112,6 +6112,7 @@ const tarifas = {
 
 // Barrios y conjuntos generales de Armenia
 // (se aplican a TODAS las tiendas si no hay tarifa específica)
+const barriosGenerales = {};
 
 // 🔥 REFERENCIAS DEL DOM
 
@@ -6167,60 +6168,84 @@ inicializarTienda();
 
 // 🔥 AUTOCOMPLETADO DE TIENDAS
 
-tiendaInput.addEventListener("input", () => {
-
+function renderTiendaSuggestions() {
     const valor = tiendaInput.value.toLowerCase();
     tiendaSuggestions.innerHTML = "";
 
-    if (valor === "") return;
+    const tiendasDisponibles = Object.keys(tarifas);
+    const tiendasEncontradas = tiendasDisponibles.filter(tienda => tienda.toLowerCase().includes(valor));
 
-    Object.keys(tarifas).forEach(tienda => {
-        if (tienda.toLowerCase().includes(valor)) {
+    tiendasEncontradas.forEach(tienda => {
+        const div = document.createElement("div");
+        div.textContent = tienda;
 
-            const div = document.createElement("div");
-            div.textContent = tienda;
+        div.addEventListener("click", () => {
+            tiendaInput.value = tienda;
+            tiendaSuggestions.innerHTML = "";
+            barrioInput.value = "";
+            barrioSuggestions.innerHTML = "";
+        });
 
-            div.addEventListener("click", () => {
-                tiendaInput.value = tienda;
-                tiendaSuggestions.innerHTML = "";
-                barrioInput.value = "";
-                barrioSuggestions.innerHTML = "";
-            });
-
-            tiendaSuggestions.appendChild(div);
-        }
+        tiendaSuggestions.appendChild(div);
     });
-});
+}
 
-
+tiendaInput.addEventListener("input", renderTiendaSuggestions);
+tiendaInput.addEventListener("focus", renderTiendaSuggestions);
 
 // 🔥 AUTOCOMPLETADO DE BARRIOS SEGÚN TIENDA
 
-barrioInput.addEventListener("input", () => {
-
+function renderBarrioSuggestions() {
     const tienda = tiendaInput.value.trim();
     const valor = barrioInput.value.toLowerCase();
     barrioSuggestions.innerHTML = "";
 
-    if (valor === "") return;
+    let barriosDisponibles = [];
+    if (tienda && tarifas[tienda]) {
+        const barriosTienda = Object.keys(tarifas[tienda]);
+        const todosBarrios = new Set([...barriosTienda, ...Object.keys(barriosGenerales)]);
+        barriosDisponibles = Array.from(todosBarrios);
+    } else {
+        // Si no hay tienda seleccionada, sugerimos todos los barrios de todas las tiendas
+        const todosBarrios = new Set();
+        Object.keys(tarifas).forEach(t => {
+            Object.keys(tarifas[t]).forEach(b => todosBarrios.add(b));
+        });
+        Object.keys(barriosGenerales).forEach(b => todosBarrios.add(b));
+        barriosDisponibles = Array.from(todosBarrios);
+        
+        // Si no han escrito nada y no hay tienda, mostramos todo (limitado abajo) o pedimos escribir
+        // Lo dejamos vacío para evitar una lista gigante al inicio si no han escrito
+        if (valor === "") return; 
+    }
 
-    const barriosTienda = tarifas[tienda] ? Object.keys(tarifas[tienda]) : [];
-    const todosBarrios = new Set([...barriosTienda, ...Object.keys(barriosGenerales)]);
+    const barriosEncontrados = barriosDisponibles.filter(barrio => barrio.toLowerCase().includes(valor));
 
-    todosBarrios.forEach(barrio => {
-        if (barrio.includes(valor)) {
+    // Mostrar resultados limitados (ej. 100) para no sobrecargar el navegador
+    barriosEncontrados.slice(0, 100).forEach(barrio => {
+        const div = document.createElement("div");
+        div.textContent = barrio.toUpperCase();
 
-            const div = document.createElement("div");
-            div.textContent = barrio.toUpperCase();
+        div.addEventListener("click", () => {
+            barrioInput.value = barrio;
+            barrioSuggestions.innerHTML = "";
+        });
 
-            div.addEventListener("click", () => {
-                barrioInput.value = barrio;
-                barrioSuggestions.innerHTML = "";
-            });
-
-            barrioSuggestions.appendChild(div);
-        }
+        barrioSuggestions.appendChild(div);
     });
+}
+
+barrioInput.addEventListener("input", renderBarrioSuggestions);
+barrioInput.addEventListener("focus", renderBarrioSuggestions);
+
+// Ocultar sugerencias al hacer clic por fuera
+document.addEventListener("click", (e) => {
+    if (e.target !== tiendaInput && !tiendaSuggestions.contains(e.target)) {
+        tiendaSuggestions.innerHTML = "";
+    }
+    if (e.target !== barrioInput && !barrioSuggestions.contains(e.target)) {
+        barrioSuggestions.innerHTML = "";
+    }
 });
 
 // 🔥 BOTÓN CONSULTAR
